@@ -1,0 +1,85 @@
+:root {
+    --my_start_color: #8B0000;
+    --my_end_color: #FF4500;
+}
+
+.button {
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-size: large;
+    color: var(--my_start_color);
+    font-family: "Monaco";
+}
+
+.base-text {
+    font-family: "Monaco";
+    font-size: 12px;
+    color: black;
+}
+
+.overall {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.landmark {
+    width: 800px;
+    background: #f5f5f5;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: all 750ms ease-in-out .01s;
+}
+
+.landmark:hover {
+    transform: scale(1.02);
+    background-color: white;
+}
+
+.landmark-image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: -0.5;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #A52A2A;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quiz-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

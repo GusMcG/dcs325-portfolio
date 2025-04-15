@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>London</title>
+
+        <style>
+            .grid-container {
+                width: 400px;
+                padding: 100px;
+                display: grid;
+            }
+            .grid-item {
+                width: clamp(100px, 50%, 400px);
+                padding: 20px;
+                border: 5px solid #8B0000;
+                word-wrap: break-word;
+                border-radius: 10px;
+                margin: 25px;
+                transition: transform 0.3s, border 0.3s, grid-template-columns 0.3s, grid-template-rows 0.3s;
+                z-index: 1;
+                background-color: white;
+            }
+            .grid-item:hover {
+                border: 15px solid #8B0000;
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                <h1 class = "base-text">
+                    <a class="button" href="main.html">Home</a>
+                </h1>
+            </header>
+
+            <img src="https://www.travelandleisure.com/thmb/kHowLiIS11dkQiFtHKf8Zt081jo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-lead-image-WHENLONDON1123-77947734e1504198b9939751c529f8d2.jpg" alt="The London Bridge" class="fixed-image">
+
+            
+            <div class="grid-container base-text">
+                <div class="grid-item academic-experience">
+                    <h2>Academic Experience</h2>
+                    <p>Studying abroad in London offers a unique academic experience with access to world-renowned universities and libraries.</p>
+                </div>
+                <div class="grid-item cultural-immersion">
+                    <h2>Cultural Immersion</h2>
+                    <p>Students can immerse themselves in British culture, exploring historical landmarks, museums, and theaters.</p>
+                </div>
+                <div class="grid-item travel-opportunities">
+                    <h2>Travel Opportunities</h2>
+                    <p>London's location makes it easy to travel to other parts of the UK and Europe, providing a broader cultural perspective.</p>
+                </div>
+                <div class="grid-item personal-growth">
+                    <h2>Personal Growth</h2>
+                    <p>Living in a new country helps students develop independence, adaptability, and global awareness.</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

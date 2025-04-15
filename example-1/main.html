@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Study Abroad</title>
+    </head>
+
+    <style class = "base-text">
+        div.flex-container {
+            width: 400px;
+            border: 10px solid #8B0000;
+            padding: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        div.flex-item {
+            flex: 1 1 auto;
+            width: clamp(100px, 50%, 400px);
+            padding: 20px;
+            border: 5px solid #8B0000;
+            display: inline-flex;
+            flex-direction: column;
+            word-wrap: break-word;
+            border-radius: 10px;
+            margin: 25px;
+            transition: transform 0.3s, border 0.3s;
+        }
+
+        div.flex-item:hover {
+        border: 15px solid #8B0000;
+        transform: scale(1.05);
+        }
+    </style>
+
+    <body>
+        <main class = "base-text">
+            <header>
+                <h1 class = "base-text">
+                    <a class = "button" href="secondary-a.html">Examples from London</a>
+                </h1>
+                <h1 class="base-text">
+                    <a class="button" href="secondary-b.html">Examples from Milan</a>
+                </h1>
+                <h1 class="base-text">
+                    <a class="button" href="secondary-c.html">Study Abroad Quiz</a>
+                </h1>
+            </header>
+            
+            <h1>
+                Why Study Abroad?
+            </h1>
+            
+            <section class="flex-container">
+                <div class="flex-item">
+                    <h2>Personal Growth</h2>
+                    <p>Studying abroad helps you grow as a person by exposing you to new cultures and experiences.</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Career Opportunities</h2>
+                    <p>It can open up new career opportunities by providing you with a global perspective and network.</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Language Skills</h2>
+                    <p>Immersing yourself in a new country helps you learn and practice a new language.</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Education Quality</h2>
+                    <p>Many countries offer high-quality education and unique programs not available at home.</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Networking</h2>
+                    <p>Meeting people from around the world can help you build a diverse and valuable network.</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Adventure</h2>
+                    <p>Studying abroad is an adventure that allows you to explore new places and cultures.</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
