@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+
+@layer theme {
+  :root {
+    --highlight-yellow: oklch(0.9 0.1 90);
+  }
+}
+
+@layer base {
+  .custom-button {
+    background-color: var(--color-teal-200);
+    font-family: var(--font-sans);
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  .custom-button:hover {
+    background-color: var(--color-emerald-500);
+  }
+}
+
+@layer utilities {
+  .highlight-yellow {
+    background-color: var(--highlight-yellow);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+}
+
+.radial-blue {
+  background: radial-gradient(lightyellow, skyblue);
+}
