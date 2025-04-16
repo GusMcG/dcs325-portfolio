@@ -12,6 +12,8 @@ Tailwind has made stylization extremely easy. It lets me style my website direct
 
 
 
+example-3: React, ShadCN/UI, Accessibility, and Cursor
+React has made developing large scale projects incredibly easily, especially when used in tandem with Cursor. Utilizing components, particularly those pulled from ShadCN/UI, is far easier when they are already created, and Cursor can just slide them in. There is also an accessibility aspect here, as on this page users can choose colors that work better for them. This is important such people with disabilities such as colorblindness, which disproportionately affects women.
 
 
 
